@@ -1,0 +1,14 @@
+<?php
+
+
+/* EX 1: */
+$tempo_gasto = readline ("digite o tempo gasto com a viagem:");
+$vel_media=readline ("digite a velocidade media da viagem:");
+
+$distancia=$tempo_gasto * $vel_media;
+echo "distancia percorrida" . $distancia . " \n";
+
+$litro_usado = $distancia / 12;
+$resultado = $litro_usado;
+
+echo "litro usado foi:" . $resultado . "\n";
